@@ -1,0 +1,60 @@
+{
+  "name": "doodle-buddy",
+  "displayName": "낙서 친구 · Doodle Buddy",
+  "description": "내가 그린 캐릭터와 함께 코딩하기",
+  "version": "0.1.0",
+  "publisher": "CHOIHEEYOUN",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "doodle-buddy",
+          "title": "낙서 친구",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "doodle-buddy": [
+        {
+          "type": "webview",
+          "id": "doodle-buddy.room",
+          "name": "작은 방"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "doodle-buddy.choose",
+        "title": "낙서 친구: 내 그림 불러오기"
+      },
+      {
+        "command": "doodle-buddy.reset",
+        "title": "낙서 친구: 기본 친구로 돌아가기"
+      }
+    ]
+  },
+  "scripts": {
+    "check": "node --check extension.js && node --check media/room.js"
+  },
+  "license": "MIT",
+  "icon": "media/store-icon.png",
+  "keywords": [
+    "pet",
+    "doodle",
+    "companion",
+    "cute",
+    "character"
+  ],
+  "galleryBanner": {
+    "color": "#eae1d6",
+    "theme": "light"
+  }
+}

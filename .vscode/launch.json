@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+    "name": "낙서 친구 실행",
+    "type": "extensionHost",
+    "request": "launch",
+    "args": ["--extensionDevelopmentPath=${workspaceFolder}"]
+  }]
+}
