@@ -56,5 +56,13 @@
   "galleryBanner": {
     "color": "#eae1d6",
     "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heeyeon9578/doodle-buddy.git"
+  },
+  "homepage": "https://github.com/heeyeon9578/doodle-buddy#readme",
+  "bugs": {
+    "url": "https://github.com/heeyeon9578/doodle-buddy/issues"
   }
 }
