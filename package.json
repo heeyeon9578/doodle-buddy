@@ -2,7 +2,7 @@
   "name": "doodle-buddy",
   "displayName": "낙서 친구 · Doodle Buddy",
   "description": "내가 그린 캐릭터와 함께 코딩하기",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "CHOIHEEYOUN",
   "engines": {
     "vscode": "^1.85.0"

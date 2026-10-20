@@ -2,6 +2,8 @@
 
 Your own drawing, keeping you company while you code.
 
+![Doodle Buddy running in VS Code](https://raw.githubusercontent.com/heeyeon9578/doodle-buddy/main/media/screenshot.png)
+
 Bring a PNG, JPG, WebP, or GIF into a tiny room in your VS Code sidebar. Your buddy wiggles while you type, jumps when you save, and falls asleep when things get quiet.
 
 ## Get started
