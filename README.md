@@ -1,5 +1,9 @@
 # Doodle Buddy · 낙서 친구
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/heeyeon9578/doodle-buddy/main/media/readme-pet.gif" width="320" alt="A doodle buddy wiggling and jumping in its little room" />
+</p>
+
 Your own drawing, keeping you company while you code.
 
 ![Doodle Buddy running in VS Code](https://raw.githubusercontent.com/heeyeon9578/doodle-buddy/main/media/screenshot.png)
